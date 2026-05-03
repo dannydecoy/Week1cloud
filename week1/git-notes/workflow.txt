@@ -1,0 +1,9 @@
+workflow from creating a repo pushing to git.
+1. Go to github and create a repo
+2. initialize git in the directory
+3. add all files 
+4. commit 
+5. before pushing, link it to the remote repo (git remote add origin https://github.com/username/repositoryname)
+6. Rename branch -M main 
+7. push : upload your commits to the remote repository. (git push -u origin main)
+ 

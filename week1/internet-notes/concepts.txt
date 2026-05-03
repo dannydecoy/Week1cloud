@@ -1,0 +1,12 @@
+DNS - presents the IP address of a user's request
+
+HTTP mthods- 1. Post 2. Pull 3.Delete 4. Push
+
+200 - successful request
+404 - unknown request
+500 - bug in code
+
+
+22 - HHS
+80 - HTTP
+5000 - Flask apps

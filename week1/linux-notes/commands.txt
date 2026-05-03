@@ -1,0 +1,10 @@
+1. cd - change directory
+2. cd .. - used to move to previous directory
+3. ls - list everything in a folder
+4. pwd - print working directory
+5. mkdir - for creating a folder
+6. touch - for creating a text file 
+7. nano- for editing a text file
+8. cat - prints out texts from text file
+9. find . -name "" - searches for exact item in the quotation marks in the text file and prints out its entire line
+10. cd ~ - takes you the main directory of pc 
