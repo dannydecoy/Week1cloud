@@ -1,0 +1,5 @@
+Tested all 4 routes with Postman:
+GET  /            → 200 API running
+GET  /expenses    → 200 returns list
+POST /expense     → 201 expense added
+DELETE /expense/1 → 200 expense deleted
