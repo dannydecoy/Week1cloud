@@ -1,0 +1,13 @@
+1. `@app.route()` is a Flask decorator that connects a URL path to a Python function so the function runs when that route is visited.
+
+2. **GET** is used to retrieve data from the server, while **POST** is used to send or create data on the server.
+
+3. We use `commit()` to permanently save changes made to the database after inserting, updating, or deleting data.
+
+4. The status code for bad input from the user is **400 Bad Request**.
+
+5. The status code for something that does not exist is **404 Not Found**.
+
+6. Postman is a tool used to test APIs by sending requests and checking the responses without needing a frontend application.
+
+7. The Expense Tracker API allows users to create, view, update, and manage expense records through API endpoints.
