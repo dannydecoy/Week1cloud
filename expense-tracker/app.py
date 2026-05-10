@@ -78,6 +78,34 @@ def delete_expense(id):
     conn.close()
     return jsonify({"message": f"Expense {id} deleted!"})
 
+
+@app.route('/expense/<int:id>', methods=['PUT'])
+def update_expense(id):
+    data = request.get_json()
+    if not data:
+        return jsonify({"error": "No data provided"}), 400
+    conn = get_db()
+    expense = conn.execute(
+        'SELECT * FROM expenses WHERE id = ?', (id,)
+    ).fetchone()
+    if not expense:
+        conn.close()
+        return jsonify({"error": f"Expense {id} not found"}), 404
+    conn.execute(
+        'UPDATE expenses SET name = ?, amount = ? WHERE id = ?',
+        (data.get('name', expense['name']), data.get('amount', expense['amount']), id)
+    )
+    conn.commit()
+    conn.close()
+    return jsonify({"message": f"Expense {id} updated!"})
+
+@app.route('/expenses/total', methods=['GET'])
+def get_total():
+    conn = get_db()
+    total = conn.execute('SELECT SUM(amount) as total FROM expenses').fetchone()['total']
+    conn.close()
+    return jsonify({"total": total if total else 0})
+
 if __name__ == '__main__':
     init_db()
     app.run(debug=True)
