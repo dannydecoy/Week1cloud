@@ -1,0 +1,11 @@
+1. **What region did you select and why?**
+   I selected the Africa (Cape Town) Region because it is geographically closer to Ghana, which can help reduce latency and improve connection speed. It is also a good choice for hosting services intended for African users.
+
+2. **What is an EC2 instance in your own words?**
+   An EC2 instance is basically a virtual computer in the cloud that you can use to run applications, websites, or servers without owning physical hardware.
+
+3. **What is a Security Group in your own words?**
+   A Security Group acts like a firewall for an EC2 instance. It controls what type of internet traffic is allowed to enter or leave the server, such as allowing SSH or web traffic.
+
+4. **What is a Key Pair in your own words?**
+   A Key Pair is a security credential used to securely connect to an EC2 instance. It includes a public key stored on the server and a private key kept by the user for authentication.
