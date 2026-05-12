@@ -1,0 +1,9 @@
+EC2 Launch Checklist:
+[ ] AWS account verified
+[ ] Region selected
+[ ] AMI: Ubuntu 22.04 LTS
+[ ] Instance type: t2.micro (free tier)
+[ ] Key pair created and .pem saved
+[ ] Security group: port 22 open
+[ ] Security group: port 5000 open
+[ ] Instance launched successfully
