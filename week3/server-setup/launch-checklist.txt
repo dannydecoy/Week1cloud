@@ -1,4 +1,5 @@
 EC2 Launch Checklist:
+[EC2 Launch Checklist:
 [ ] AWS account verified
 [ ] Region selected
 [ ] AMI: Ubuntu 22.04 LTS
@@ -7,3 +8,4 @@ EC2 Launch Checklist:
 [ ] Security group: port 22 open
 [ ] Security group: port 5000 open
 [ ] Instance launched successfully
+ 
