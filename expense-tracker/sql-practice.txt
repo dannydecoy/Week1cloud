@@ -1,0 +1,13 @@
+-- Get everything
+SELECT * FROM table_name
+
+-- Add something
+INSERT INTO table_name (column1, column2) VALUES (?, ?)
+
+-- Change something
+UPDATE table_name SET column1 = ?, column2 = ? WHERE id = ?
+
+-- Remove something
+DELETE FROM table_name WHERE id = ?
+
+
