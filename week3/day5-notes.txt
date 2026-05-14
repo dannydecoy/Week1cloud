@@ -1,0 +1,4 @@
+Day 5 complete - app running permanently on AWS EC2
+- Created systemd service file
+- App survives terminal close and server restarts
+- Live URL: http://54.237.189.129:5000
