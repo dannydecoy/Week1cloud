@@ -22,7 +22,7 @@ def get_db():
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Expense Tracker API is running!"})
+    return jsonify({"message": "Expense Tracker API v2 - Live on AWS!"})
 
 @app.route('/expenses', methods=['GET'])
 def get_expenses():
