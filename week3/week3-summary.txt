@@ -1,0 +1,76 @@
+SERVER PUBLIC IP
+54.237.189.129
+
+
+1. HOW TO SSH INTO SERVER
+
+ssh -i ~/expense-tracker-key.pem ubuntu@54.237.189.129
+
+
+2. HOW TO DEPLOY AN UPDATE
+
+# Go into project folder
+cd your-project-folder
+
+# Pull latest code
+git pull origin main
+
+# Install dependencies (Python)
+pip install -r requirements.txt
+
+# OR for Node.js
+npm install
+
+# Restart service
+sudo systemctl restart expense-tracker
+
+
+3. HOW TO RESTART THE SERVICE
+
+sudo systemctl restart expense-tracker
+
+# Check status
+sudo systemctl status expense-tracker
+
+
+4. HOW TO CHECK LOGS
+
+# Live logs
+sudo journalctl -u expense-tracker -f
+
+# Last 50 logs
+sudo journalctl -u expense-tracker --no-pager -n 50
+
+
+# Check service status
+sudo systemctl status expense-tracker
+# Check logs
+pip install -r requirements.txt
+npm install
+
+# Restart service
+sudo systemctl restart expense-tracker
+
+
+6. CHECK IF APP IS WORKING
+
+# Browser
+curl http://54.237.189.129
+
+
+
+# Check process using port
+sudo lsof -i :5000
+
+# Kill process
+sudo kill -9 PID7. IF PORT IS BUSY
+http://54.237.189.129
+
+# Terminal test
+# OR
+
+# Reinstall dependencies if needed
+
+sudo journalctl -u expense-tracker -f
+
+

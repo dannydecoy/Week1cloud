@@ -1,0 +1,11 @@
+1. EC2 is a virtual server you rent from Amazon that runs in their data center, giving your app a public IP address accessible to anyone in the world.
+
+2. A Security Group acts as a firewall for your EC2 server — it controls which ports are open and who can access them. We opened port 22 for SSH and port 5000 for Flask.
+
+3. A Security Group acts as a firewall for your EC2 server — it controls which ports are open and who can access them. We opened port 22 for SSH and port 5000 for Flask.
+
+4. We installed Python, pip, Flask, Git and SQLite because EC2 starts as a blank Ubuntu machine with nothing pre-installed — like a brand new laptop out of the box.
+
+5. We installed Python, pip, Flask, Git and SQLite because EC2 starts as a blank Ubuntu machine with nothing pre-installed — like a brand new laptop out of the box.
+
+6. I deployed a real Flask API to a cloud server on AWS that is now accessible to anyone in the world at a public IP address and runs permanently without my laptop being on.
