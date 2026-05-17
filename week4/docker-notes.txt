@@ -1,0 +1,24 @@
+1. What problem does Docker solve?
+
+Docker packages an application together with everything it needs to run, so it behaves the same everywhere — on your laptop, a server, or the cloud.
+--------------------------------------------------
+
+2. What is the difference between an image and a container?
+
+Image: Blueprint/template for an app.
+Container: Running instance of the image.
+
+-----------------------------
+3. What is a Dockerfile?
+
+A Dockerfile is a text file with instructions for building a Docker image.
+
+-----------------------
+4. What is Docker Hub?
+
+Docker Hub is an online platform for storing and sharing Docker images.
+
+--------------------------
+5. How does Docker make deployment easier?
+
+Docker makes deployment easier by allowing the same container to run anywhere consistently and quickly.
